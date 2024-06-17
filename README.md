@@ -14,6 +14,12 @@ Este projeto utiliza dois sensores ultrassônicos para medir a velocidade de um 
 
 O código é escrito em Arduino C++ e utiliza a biblioteca `LiquidCrystal_I2C` para controlar o display LCD. O código realiza as seguintes funções:
 
+### 📚 Bibliotecas
+
+```cpp
+#include <LiquidCrystal_I2C.h>
+````
+
 1. **⚙️ Configuração Inicial (`setup`):**
    - Inicializa a comunicação serial.
    - Inicializa o display LCD.
@@ -52,13 +58,6 @@ O código é escrito em Arduino C++ e utiliza a biblioteca `LiquidCrystal_I2C` p
 3. Abra o monitor serial para ver as distâncias e a velocidade calculada.
 4. Observe o display LCD para ver a velocidade do objeto em movimento.
 
-## 💻 Explicação do Código
-
-### 📚 Bibliotecas
-
-```cpp
-#include <LiquidCrystal_I2C.h>
-````
 ## Desenvolvedores :alien:
 - **Eliseu Fernando Mendes dos Santos - RM98493**
 - **Ana Clara Melo de Sousa - RM559021**
