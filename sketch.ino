@@ -1,4 +1,3 @@
-
 #include <LiquidCrystal_I2C.h>
 
 #define TRIGGER_PIN1  3  
@@ -41,7 +40,7 @@ float calcdistancia(int triggerPin, int echoPin) {
 }
 
 void loop() {
-  delay(500); 
+  delay(1000); 
   
   // Primeiro sensor
   tempo1 = millis();
@@ -50,7 +49,7 @@ void loop() {
   Serial.print(distancia1);
   Serial.println(" cm");
   
-  delay(500); 
+  delay(1000); 
   
   // Segundo sensor
   tempo2 = millis();
@@ -59,6 +58,8 @@ void loop() {
   Serial.print(distancia2);
   Serial.println(" cm");
   
+  delay(1000); 
+
   // v = d/t
   if (distancia1 > 0 && distancia2 > 0) {
     float tempo = (tempo2 - tempo1) / 1000.0; 
