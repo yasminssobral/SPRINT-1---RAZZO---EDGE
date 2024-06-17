@@ -58,7 +58,7 @@ O código é escrito em Arduino C++ e utiliza a biblioteca `LiquidCrystal_I2C` p
 
 ```cpp
 #include <LiquidCrystal_I2C.h>
-
+````
 ## Desenvolvedores :alien:
 - **Eliseu Fernando Mendes dos Santos - RM98493**
 - **Ana Clara Melo de Sousa - RM559021**
